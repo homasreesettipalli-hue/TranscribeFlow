@@ -1,0 +1,28 @@
+# TranscribeFlow — Python Dependencies
+# Generated: 2026-04-03
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+Flask==3.1.2
+flask-cors==6.0.1
+
+# ── Speech Transcription ───────────────────────────────────────────────────────
+openai-whisper==20250625
+
+# ── AI / NLP Models ───────────────────────────────────────────────────────────
+transformers==4.57.1
+torch==2.10.0
+
+# ── Audio Processing & Speaker Diarization ────────────────────────────────────
+librosa==0.11.0
+imageio-ffmpeg==0.6.0
+numpy==2.3.5
+
+# ── Machine Learning (diarization clustering + TF-IDF highlights) ─────────────
+scikit-learn==1.7.2
+
+# ── Authentication ────────────────────────────────────────────────────────────
+clerk-backend-api==5.0.0
+
+# ── Translation ───────────────────────────────────────────────────────────────
+deep-translator==1.11.4
